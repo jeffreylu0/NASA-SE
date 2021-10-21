@@ -8,14 +8,14 @@ from nltk.chunk import RegexpParser
 from nltk.tag.stanford import StanfordPOSTagger
 
 #pos_tagger
-path_to_jar = 'stanford_jars/stanford-postagger-3.9.2.jar'
-path_to_models_jar = 'stanford_jars/models/english-bidirectional-distsim.tagger'
+path_to_jar = '/content/drive/MyDrive/Colab Notebooks/MBSE/stanford_taggers/stanford-postagger-3.9.2.jar'
+path_to_models_jar = '/content/drive/MyDrive/Colab Notebooks/MBSE/stanford_taggers/english-bidirectional-distsim.tagger'
 
 stanford_pos_tagger = StanfordPOSTagger(path_to_models_jar, path_to_jar)
 
 #dependency parser
-path_to_jar = 'stanford_jars/stanford-parser.jar'
-path_to_models_jar = 'stanford_jars/stanford-parser-3.9.2-models.jar'
+path_to_jar = '/content/drive/MyDrive/Colab Notebooks/MBSE/stanford_taggers/stanford-parser.jar'
+path_to_models_jar = '/content/drive/MyDrive/Colab Notebooks/MBSE/stanford_taggers/stanford-parser-3.9.2-models.jar'
 
 stanford_dependency_parser = StanfordDependencyParser(path_to_jar=path_to_jar, path_to_models_jar=path_to_models_jar)
 
