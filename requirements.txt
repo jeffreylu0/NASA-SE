@@ -8,7 +8,7 @@ sklearn
 tensorflow-gpu
 pandas
 tqdm
-pyenchant
+pyenchant==1.6.6
 setuptools
 wheel
 spacy
