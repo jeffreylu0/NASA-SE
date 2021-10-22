@@ -1,8 +1,6 @@
 import nltk, re
 from nltk.corpus import stopwords
-import enchant
 from nltk import ngrams
-d = enchant.Dict("en_US")
 
 # create a dictionary
 # input: accronym file
